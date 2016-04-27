@@ -10,6 +10,7 @@
 		A00CC0701CCF252500270813 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00CC06F1CCF252500270813 /* MainTabBar.swift */; };
 		A0505B351CCB8E1E0040D7BB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0505B341CCB8E1E0040D7BB /* ListViewController.swift */; };
 		A0505B371CCB8F420040D7BB /* NewSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0505B361CCB8F420040D7BB /* NewSessionViewController.swift */; };
+		A07E93591CD102E800F49E38 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E93581CD102E800F49E38 /* SessionViewController.swift */; };
 		A0ECC6881BA65CE400E35B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECC6871BA65CE400E35B0E /* AppDelegate.swift */; };
 		A0ECC68A1BA65CE400E35B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECC6891BA65CE400E35B0E /* ViewController.swift */; };
 		A0ECC68D1BA65CE400E35B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ECC68B1BA65CE400E35B0E /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		A00CC06F1CCF252500270813 /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		A0505B341CCB8E1E0040D7BB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		A0505B361CCB8F420040D7BB /* NewSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSessionViewController.swift; sourceTree = "<group>"; };
+		A07E93581CD102E800F49E38 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionViewController.swift; path = ../SessionViewController.swift; sourceTree = "<group>"; };
 		A0ECC6841BA65CE400E35B0E /* shitballs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shitballs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ECC6871BA65CE400E35B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0ECC6891BA65CE400E35B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		A0ECC6861BA65CE400E35B0E /* shitballs */ = {
 			isa = PBXGroup;
 			children = (
+				A07E93581CD102E800F49E38 /* SessionViewController.swift */,
 				A0ECC6871BA65CE400E35B0E /* AppDelegate.swift */,
 				A0ECC6891BA65CE400E35B0E /* ViewController.swift */,
 				A0ECC68B1BA65CE400E35B0E /* Main.storyboard */,
@@ -273,6 +276,7 @@
 				A0505B351CCB8E1E0040D7BB /* ListViewController.swift in Sources */,
 				A0505B371CCB8F420040D7BB /* NewSessionViewController.swift in Sources */,
 				A0ECC6881BA65CE400E35B0E /* AppDelegate.swift in Sources */,
+				A07E93591CD102E800F49E38 /* SessionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

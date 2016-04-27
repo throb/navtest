@@ -27,7 +27,7 @@
         <!--Session List-->
         <scene sceneID="H2s-V7-UtA">
             <objects>
-                <viewController title="Session List" id="4sr-8G-J1S" customClass="ListViewController" customModule="shitballs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListVC" title="Session List" id="4sr-8G-J1S" customClass="ListViewController" customModule="shitballs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qEE-XH-daE"/>
                         <viewControllerLayoutGuide type="bottom" id="gIQ-Gk-DKk"/>
@@ -62,7 +62,7 @@
         <!--Session-->
         <scene sceneID="YOE-Tr-qZ5">
             <objects>
-                <viewController title="Session" id="7Sg-Ab-UHM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sessionVC" title="Session" id="7Sg-Ab-UHM" customClass="SessionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DwG-z6-1zd"/>
                         <viewControllerLayoutGuide type="bottom" id="l06-ZQ-6ne"/>
@@ -85,9 +85,8 @@
                             <constraint firstItem="A5C-BB-atJ" firstAttribute="centerX" secondItem="6en-iH-MBp" secondAttribute="centerX" id="ZAb-wA-UTd"/>
                         </constraints>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="lfS-EQ-Wr1"/>
-                    </toolbarItems>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Session" id="Wnb-p3-vKk"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dRs-Db-FB3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -117,6 +116,7 @@
                             <constraint firstItem="Fr1-mc-mLb" firstAttribute="centerX" secondItem="wEm-b1-j6x" secondAttribute="centerX" id="qAs-Yc-Yka"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Waves" id="gjW-FF-9fI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4b4-tr-A23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,7 +126,7 @@
         <scene sceneID="W6v-hP-Aau">
             <objects>
                 <navigationController title="Nav" id="xzK-ig-yKv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Sessions" id="HFd-yd-5Go"/>
+                    <tabBarItem key="tabBarItem" tag="2" systemItem="history" id="HFd-yd-5Go"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Fk-Mr-FUn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -198,7 +198,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="New Session" id="SlN-iB-aDb"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="New!" id="SlN-iB-aDb"/>
                     <connections>
                         <outlet property="buttonBG" destination="cmo-mv-IIN" id="YAI-hB-D92"/>
                     </connections>

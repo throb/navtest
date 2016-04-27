@@ -1,17 +1,15 @@
 //
-//  ListViewController.swift
+//  SessionListViewController.swift
 //  shitballs
 //
-//  Created by Robert Nederhorst on 4/23/16.
+//  Created by Robert Nederhorst on 4/27/16.
 //  Copyright © 2016 Robert Nederhorst. All rights reserved.
 //
 
 import UIKit
 
-class ListViewController: UIViewController {
+class SessionListViewController: UIViewController {
 
-    var fromNew: Bool = false
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,14 +19,6 @@ class ListViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        if self.fromNew == true {
-//            performSegueWithIdentifier("zz1", sender: self)
-            print ("yes")
-        }
-        print ("appear")
     }
     
 
