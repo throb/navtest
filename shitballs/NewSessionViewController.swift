@@ -38,24 +38,14 @@ class NewSessionViewController: UIViewController {
     
     @IBAction func closeTapped(sender: AnyObject) {
         self.buttonBG.backgroundColor = UIColor.blackColor()
-//        let tabbers = self.storyboard?.instantiateViewControllerWithIdentifier("bigPoopers") as! UITabBarController
-//        tabbers.selectedIndex = 0
+
         self.tabBarController?.selectedIndex = 2
-//        print(tabbers.selectedIndex)
+
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let loginPageView = storyboard.instantiateViewControllerWithIdentifier("ListVC") as! ListViewController
         loginPageView.fromNew = true
-        print ("closed")
-//        self.navigationController?.pushViewController(loginPageView, animated: true)
-    
-//        dismissViewControllerAnimated(true) {
-////            let newVC = self.storyboard?.instantiateViewControllerWithIdentifier("ListViewController") as! ViewController
-////            self.tabBarController?.selectedViewController.
-////            let tabBar = self.window
-//            let tabbers = self.storyboard?.instantiateViewControllerWithIdentifier("bigPoopers") as! UITabBarController
-//            tabbers.selectedIndex = 0
-//            print("turds")
-//            }
+
+
     }
 
     
