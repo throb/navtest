@@ -39,11 +39,11 @@ class NewSessionViewController: UIViewController {
     @IBAction func closeTapped(sender: AnyObject) {
         self.buttonBG.backgroundColor = UIColor.blackColor()
 
-        self.tabBarController?.selectedIndex = 2
-
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let loginPageView = storyboard.instantiateViewControllerWithIdentifier("ListVC") as! ListViewController
         loginPageView.fromNew = true
+        
+        self.tabBarController?.selectedIndex = 2
 
 
     }
